@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// Using react hook useState for profile to display and update when info is changed
+// Using react hook useState for existing profile to display and update when info is changed immediately
 
 function Profile() {
   const [profile, setProfile] = useState({
