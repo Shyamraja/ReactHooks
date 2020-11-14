@@ -11,7 +11,7 @@ function Counter() {
 
   return (
     <div className="counts">
-      <p>This is counter</p>
+      <h1>This is counter</h1>
       {count}-{secondCount}
       <br />
       <button onClick={() => setSecondCount(secondCount + 1)}>      

@@ -33,6 +33,8 @@ function Profile() {
   return (
     <div>
       <form>
+        
+      <h1>The personal information is displayed and edited in form  below</h1> 
         <input type="text" value={profile.name} onChange={onNameChange} />
         <input type="text" value={profile.address} onChange={onAddressChange} />
         <input type="text" value={profile.email} onChange={onEmailChange} />
@@ -40,7 +42,7 @@ function Profile() {
         <input type="text" value={profile.age} onChange={onAgeChange} />
         <input type="text" value={profile.phone} onChange={onPhoneChange} />
         
-        <p>The personal information is as below</p>       
+        <h2>The personal information is as below</h2>       
          <li>Name: {profile.name}</li> 
          <li>Address: {profile.address}</li>
          <li>Gender: {profile.gender}</li>
